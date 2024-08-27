@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS ASS-3</title>
+</head>
+<body>
+    <h1>JS Addition</h1>
+    <h1>JS Subtraction</h1>
+    <h1>JS Maltiplication</h1>
+    <h1>JS Division</h1>
+   
+    <script>
+        // addition start
+
+        let lichi = 30;
+        let mango = 40;
+        // +
+        var y = lichi + mango;
+        console.log("The sum of "+lichi+" and "+mango+" is "+y);
+
+         // addition end
+
+        //  subtraction start
+
+        let math = 95;
+        let science =78;
+        // -
+        var x = math - science;
+        console.log("The subtraction of "+math+" and "+science+" is "+x);
+
+        // subtraction end
+
+        // multiplication start
+
+        var keya = 15;
+        var joya = 23;
+        // *
+        var z = keya * joya;
+        console.log("The multiplication of "+keya+" and "+joya+" is "+z);
+
+        // multiplication end
+
+        // divition start
+
+        let a = 300;
+        let b = 15;
+        // /
+        var k = a / b;
+        console.log("The addition of "+a+" and "+b+" is "+k);
+
+         // divition end
+
+        //  object start
+        const person = { 
+            firstName:"Almin Nahar",
+            lastName:"Keya",
+            age:"20",
+            isStudent:"true",
+        }
+        console.log(person.firstName);
+        console.log(person.lastName);
+        console.log(person.age);
+        console.log(person.isStudent);
+      
+    </script>
+
+        <h1>JS Objects</h1>
+        <p id="demo"></p>
+        <p id="change"></p>
+        <p id="mood"></p>
+        <p id="done"></p>
+
+    <script>
+        const phone = {type:"vivo", model:"Y11", color:"blue",ram:"3 gb"};
+
+        document.getElementById("demo").innerHTML =
+        "The phone type is " + phone.type;
+        document.getElementById("change").innerHTML =
+        "The phone model is " + phone.model;
+        document.getElementById("mood").innerHTML =
+        "The phone color is " + phone.color;
+        document.getElementById("done").innerHTML =
+        "The phone ram is " + phone.ram;
+    </script>
+    <!-- object end -->
+
+    <!-- arrays start -->
+      
+    
+        <h1>JS Arrays</h1>
+        <p id="open"></p>
+        <p id="food"></p>
+        <p id="class"></p>
+
+    <script>
+        const MakeupKit = ["Conceler", "Primer", "Eyeliner", "Foundation", "Mascara"];
+        const fruits = ["apple","orange","lichi","mango"]
+
+        document.getElementById("open").innerHTML = 
+        "The makeupKit list is :  " +MakeupKit;
+        document.getElementById("food").innerHTML = 
+        "My favourite fruit is   " +fruits[2];
+        document.getElementById("class").innerHTML = 
+        "But i like  " +fruits[3]; 
+    
+    </script>
+    <!-- arrays end -->
+
+</body>
+</html>
